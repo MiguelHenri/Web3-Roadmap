@@ -15,8 +15,25 @@ So, we created the [Identity Manager](https://github.com/MiguelHenri/Web3-Roadma
 
 ## 🔗 Step 2 - Hyperledger Besu Private Blockchain
 
-In the second step, we will run a private blockchain using [Hyperledger Besu](https://besu.hyperledger.org/private-networks). We will also deploy our smart contract on this new network.
+In the second step, we will run a private blockchain using [Hyperledger Besu](https://besu.hyperledger.org/private-networks). We will also deploy and run our smart contract on this new network.
 
-## ⚙ Step 3 - Transactions using Web3.py
+`Motivation`: Unlike public blockchains, where data is visible to everyone, a private network allows for stringent privacy controls, ensuring compliance with data protection regulations and safeguarding user information from unauthorized access.
 
-In the final step, we will interact with our smart contract using the [Web3.py](https://web3py.readthedocs.io/en/stable/) library. 
+To setup Besu:
+- Follow the [guide to run besu](https://besu.hyperledger.org/development/private-networks/tutorials/quickstart) using a docker image;
+- Make sure you have all [prerequisites](https://besu.hyperledger.org/development/private-networks/tutorials/quickstart#prerequisites).
+> It is preferrable and easier if you run Linux OS.
+
+To deploy and run the smart contract:
+- Install [MetaMask](https://metamask.io/download/) for your browser;
+- Connect [Remix ETH](https://remix.ethereum.org/) to MetaMask by selecting the `Injected Provider` environment;
+- Finally, deploy and run the [Identity Manager](https://github.com/MiguelHenri/Web3-Roadmap/blob/main/code/IdentityManager.sol) contract on your private blockchain network.
+
+## ⚙ Step 3 - Transactions using Truffle
+
+In the final step, we will interact with our smart contract using the [Truffle](https://archive.trufflesuite.com/docs/truffle/) environment.
+> Truffle uses [web3.js](https://web3js.readthedocs.io/en/v1.10.0/) to interact with blockchain.
+
+## 🎫 Bonus - DID Tokenization
+
+In this bonus step, we will make the DID a Non Transferable Token using the ERC20 [OpenZeppelin](https://www.openzeppelin.com/) implementation.
