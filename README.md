@@ -31,8 +31,11 @@ To deploy and run the smart contract:
 
 ## ⚙ Step 3 - Transactions using Truffle
 
-In the final step, we will interact with our smart contract using the [Truffle](https://archive.trufflesuite.com/docs/truffle/) environment.
-> Truffle uses [web3.js](https://web3js.readthedocs.io/en/v1.10.0/) to interact with blockchain.
+In the final step, we will interact with our smart contract using the [HardHat](https://hardhat.org/) environment.
+> HardHat uses ether.js to interact with blockchain.
+
+Setup:
+- [to-do]
 
 ## 🎫 Bonus - DID Tokenization
 
