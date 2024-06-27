@@ -29,10 +29,10 @@ To deploy and run the smart contract:
 - Connect [Remix ETH](https://remix.ethereum.org/) to MetaMask by selecting the `Injected Provider` environment;
 - Finally, deploy and run the [Identity Manager](https://github.com/MiguelHenri/Web3-Roadmap/blob/main/code/IdentityManager.sol) contract on your private blockchain network.
 
-## ⚙ Step 3 - Transactions using Truffle
+## ⚙ Step 3 - Transactions using Hardhat
 
-In the final step, we will interact with our smart contract using the [HardHat](https://hardhat.org/) environment.
-> HardHat uses ether.js to interact with blockchain.
+In the final step, we will interact with our smart contract using the [Hardhat](https://hardhat.org/) environment.
+> Hardhat uses ether.js to interact with the blockchain network.
 
 Setup:
 - [to-do]
