@@ -5,6 +5,9 @@ node_modules
 test
 ignition
 
+# Besu
+IBFT-Network
+
 # Hardhat files
 /cache
 /artifacts
