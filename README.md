@@ -26,6 +26,7 @@ To setup Besu:
 
 To deploy and run the smart contract:
 - Install [MetaMask](https://metamask.io/download/) for your browser;
+- Configure MetaMask to connect to the Besu blockchain network;
 - Connect [Remix ETH](https://remix.ethereum.org/) to MetaMask by selecting the `Injected Provider` environment;
 - Finally, deploy and run the [Identity Manager](https://github.com/MiguelHenri/Web3-Roadmap/blob/main/code/contracts/IdentityManager.sol) contract on your private blockchain network.
 
@@ -33,6 +34,8 @@ To deploy and run the smart contract:
 
 In the final step, we will interact with our smart contract using the [Hardhat](https://hardhat.org/) environment.
 > Hardhat uses ether.js to interact with the blockchain network.
+
+`Motivation`: Hardhat is an essential tool for blockchain developers. It provides a built-in local development network for rapid testing and debugging, plugins and an intuitive setup.
 
 Before running, make sure:
 - You have one of the [node valid versions](https://hardhat.org/nodejs-versions);
