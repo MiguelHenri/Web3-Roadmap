@@ -39,13 +39,9 @@ In the final step, we will interact with our smart contract using the [Hardhat](
 
 Before running, make sure:
 - You have one of the [node valid versions](https://hardhat.org/nodejs-versions);
-- You have the `.env` variables (from Besu) configured correctly.
+- You have the `.env` variables (from Besu) configured correctly. Check `.env.example`.
 
 To deploy the contract and run transactions using the Hardhat environment:
 - Install all dependencies by running `npm install` in `/code` directory;
 - Compile the smart contract by running `npx hardhat compile`;
-- [to-do]
-
-## 🎫 Bonus - DID Tokenization
-
-In this bonus step, we will make the DID a Non Transferable Token using the ERC20 [OpenZeppelin](https://www.openzeppelin.com/) implementation.
+- Call the scripts by running `npx hardhat run scripts/interact<x>.js --network besu`;
