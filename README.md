@@ -20,8 +20,8 @@ In the second step, we will run a private blockchain using [Hyperledger Besu](ht
 `Motivation`: Unlike public blockchains, where data is visible to everyone, a private network allows for stringent privacy controls, ensuring compliance with data protection regulations and safeguarding user information from unauthorized access.
 
 To setup Besu:
-- Follow this [guide](https://besu.hyperledger.org/development/private-networks/tutorials/ibft) to run an IBFT Besu private network;
-- Make sure you have all [prerequisites](https://besu.hyperledger.org/development/private-networks/tutorials/ibft#prerequisites).
+- Follow this [guide](https://besu.hyperledger.org/private-networks/tutorials/ibft) to run an IBFT Besu private network;
+- Make sure you have all [prerequisites](https://besu.hyperledger.org/private-networks/tutorials/ibft#prerequisites).
 > It is preferrable and easier if you run Linux OS.
 
 To deploy and run the smart contract:
